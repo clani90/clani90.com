@@ -84,7 +84,7 @@ ssh_host_key_algorithms:
 
 ssh_identity_files:
   - ~/.ssh/id_ed25519
-  - ~/.ssh/id_rsa
+  - ~/.ssh/id_rsa_clani90
 
 ssh_send_env: []
 
