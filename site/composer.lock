@@ -4,8 +4,28 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eccccb43d7cb3d426adcbc5eeb90b3cc",
+    "content-hash": "6fc77e1aa6aaa2a37c3aae232e9c0f37",
     "packages": [
+        {
+            "name": "clani90/ramp-plugin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clani90/ramp-plugin.git",
+                "reference": "99122f252a73dad56060d8a90ea8a10fd1541ae2"
+            },
+            "require": {
+                "jjgrainger/posttypes": "^2.0"
+            },
+            "type": "wordpress-muplugin",
+            "authors": [
+                {
+                    "name": "Reefiki",
+                    "email": "reefiki@clani90.com"
+                }
+            ],
+            "time": "2018-11-17T22:51:05+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v1.6.0",
@@ -287,6 +307,48 @@
             "description": "WordPress plugin loader for Carbon Fields.",
             "homepage": "http://carbonfields.net/",
             "time": "2018-03-16T09:20:19+00:00"
+        },
+        {
+            "name": "jjgrainger/posttypes",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jjgrainger/PostTypes.git",
+                "reference": "04525d30d30ec19fef3478676b4f27aa405ac3a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jjgrainger/PostTypes/zipball/04525d30d30ec19fef3478676b4f27aa405ac3a6",
+                "reference": "04525d30d30ec19fef3478676b4f27aa405ac3a6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.7",
+                "squizlabs/php_codesniffer": "^2.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PostTypes\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Grainger",
+                    "email": "hello@jjgrainger.co.uk",
+                    "homepage": "http://jjgrainger.co.uk"
+                }
+            ],
+            "description": "Simple WordPress custom post types.",
+            "homepage": "https://github.com/jjgrainger/posttype",
+            "time": "2018-03-27T18:30:06+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -1044,6 +1106,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "clani90/ramp-plugin": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
