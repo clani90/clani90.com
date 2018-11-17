@@ -46,7 +46,8 @@
     "roots/wp-config": "1.0.0",
     "htmlburger/carbon-fields-plugin": "^2.2",
     "wpackagist-plugin/wordpress-social-login":"2.3.3",
-    "maadhattah/wp-github-sync": "~2.0.1"
+    "maadhattah/wp-github-sync": "^2.0.1",
+    "wpackagist-plugin/gutenberg":"4.4.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
