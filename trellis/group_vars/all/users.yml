@@ -13,7 +13,7 @@ users:
     groups:
       - sudo
     keys:
-      - "{{ lookup('file', '~/.ssh/id_rsa_id_rsa_clani90.pub') }}"
+      - "{{ lookup('file', '~/.ssh/id_rsa_clani90.pub') }}"
       # - https://github.com/username.keys
 
 web_user: web
