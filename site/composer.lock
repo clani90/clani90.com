@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/clani90/ramp-plugin.git",
-                "reference": "99122f252a73dad56060d8a90ea8a10fd1541ae2"
+                "reference": "ab64d587b0f42d1c417fcb9b343d3d5e88b62680"
             },
             "require": {
                 "jjgrainger/posttypes": "^2.0"
@@ -24,7 +24,7 @@
                     "email": "reefiki@clani90.com"
                 }
             ],
-            "time": "2018-11-17T22:51:05+00:00"
+            "time": "2018-11-18T03:20:16+00:00"
         },
         {
             "name": "composer/installers",
