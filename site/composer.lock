@@ -4,27 +4,33 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6fc77e1aa6aaa2a37c3aae232e9c0f37",
+    "content-hash": "7e3d11e3d05d5f49cf369ae63f28d189",
     "packages": [
         {
             "name": "clani90/ramp-plugin",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/clani90/ramp-plugin.git",
-                "reference": "ab64d587b0f42d1c417fcb9b343d3d5e88b62680"
+                "reference": "d61d490d24fdccd3a63b9afe8742343265874bef"
             },
             "require": {
                 "jjgrainger/posttypes": "^2.0"
             },
             "type": "wordpress-muplugin",
+            "autoload": {
+                "psr-4": {
+                    "Ramp\\": "src/",
+                    "Wheel\\": "app/"
+                }
+            },
             "authors": [
                 {
                     "name": "Reefiki",
                     "email": "reefiki@clani90.com"
                 }
             ],
-            "time": "2018-11-18T03:20:16+00:00"
+            "time": "2018-11-18T23:41:21+00:00"
         },
         {
             "name": "composer/installers",
@@ -834,6 +840,26 @@
             "homepage": "https://wordpress.org/plugins/wordpress-social-login/"
         },
         {
+            "name": "wpackagist-plugin/wp-discord-post",
+            "version": "2.1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-discord-post/",
+                "reference": "tags/2.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-discord-post.2.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-discord-post/"
+        },
+        {
             "name": "xrstf/composer-php52",
             "version": "v1.0.20",
             "source": {
@@ -941,6 +967,7 @@
                 "paragonie/random_compat": "<2",
                 "paypal/merchant-sdk-php": "<3.12",
                 "phpmailer/phpmailer": ">=5,<5.2.27|>=6,<6.0.6",
+                "phpoffice/phpspreadsheet": "<=1.5",
                 "phpunit/phpunit": ">=4.8.19,<4.8.28|>=5.0.10,<5.6.3",
                 "phpwhois/phpwhois": "<=4.2.5",
                 "phpxmlrpc/extras": "<0.6.1",
@@ -1049,7 +1076,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2018-11-16T03:31:38+00:00"
+            "time": "2018-11-21T13:18:22+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
