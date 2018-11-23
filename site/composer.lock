@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7e3d11e3d05d5f49cf369ae63f28d189",
+    "content-hash": "aa6df87c3986e7cb5058c8ccce7c3f2a",
     "packages": [
         {
             "name": "clani90/ramp-plugin",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/clani90/ramp-plugin.git",
-                "reference": "d61d490d24fdccd3a63b9afe8742343265874bef"
+                "reference": "81b2899aac0073430792b304aa76009788e2ebf3"
             },
             "require": {
                 "jjgrainger/posttypes": "^2.0"
@@ -20,8 +20,7 @@
             "type": "wordpress-muplugin",
             "autoload": {
                 "psr-4": {
-                    "Ramp\\": "src/",
-                    "Wheel\\": "app/"
+                    "Ramp\\": "src/"
                 }
             },
             "authors": [
@@ -30,7 +29,7 @@
                     "email": "reefiki@clani90.com"
                 }
             ],
-            "time": "2018-11-18T23:41:21+00:00"
+            "time": "2018-11-23T06:39:10+00:00"
         },
         {
             "name": "composer/installers",
