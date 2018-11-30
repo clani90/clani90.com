@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa6df87c3986e7cb5058c8ccce7c3f2a",
+    "content-hash": "191074a1548b6d19d9ee8083c729d8b1",
     "packages": [
         {
             "name": "clani90/ramp-plugin",
@@ -650,6 +650,38 @@
             "time": "2017-07-17T20:41:59+00:00"
         },
         {
+            "name": "reefiki/wordpress-social-login",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reefiki/wordpress-social-login",
+                "reference": "c66fe31953bece2d88ef63a88bdb135a42722397"
+            },
+            "require": {
+                "composer/installers": "^1.4",
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Reefiki",
+                    "email": "reefiki@clani90.com",
+                    "homepage": "https://clani90.com"
+                }
+            ],
+            "description": "Login to WordPress with your social media accounts.",
+            "homepage": "https://clani90.com",
+            "keywords": [
+                "login",
+                "plugin",
+                "wordpress"
+            ],
+            "time": "2018-11-30T05:00:32+00:00"
+        },
+        {
             "name": "roots/wp-config",
             "version": "1.0.0",
             "source": {
@@ -819,26 +851,6 @@
             "homepage": "https://wordpress.org/plugins/gutenberg/"
         },
         {
-            "name": "wpackagist-plugin/wordpress-social-login",
-            "version": "2.3.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wordpress-social-login/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-social-login.zip?timestamp=1491677726",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wordpress-social-login/"
-        },
-        {
             "name": "wpackagist-plugin/wp-discord-post",
             "version": "2.1.0",
             "source": {
@@ -928,7 +940,10 @@
                 "drupal/core": ">=7,<7.60|>=8,<8.5.8|>=8.6,<8.6.2",
                 "drupal/drupal": ">=7,<7.60|>=8,<8.5.8|>=8.6,<8.6.2",
                 "erusev/parsedown": "<1.7",
-                "ezsystems/ezpublish-legacy": ">=5.3,<5.3.12.5|>=5.4,<5.4.12.2|>=2017.8,<2017.8.1.1|>=2017.12,<2017.12.4.2|>=2018.6,<2018.6.1.3|>=2018.9,<2018.9.1.2",
+                "ezsystems/ezplatform": "<1.7.8.1|>=1.8,<1.13.4.1|>=2,<2.2.3.1|>=2.3,<2.3.2.1",
+                "ezsystems/ezpublish-kernel": ">=5.3,<5.3.12.1|>=5.4,<5.4.13.1|>=6,<6.7.9.1|>=6.8,<6.13.5.1|>=7,<7.2.4.1|>=7.3,<7.3.2.1",
+                "ezsystems/ezpublish-legacy": ">=5.3,<5.3.12.6|>=5.4,<5.4.12.3|>=2011,<2017.12.4.3|>=2018.6,<2018.6.1.4|>=2018.9,<2018.9.1.3",
+                "ezsystems/repository-forms": ">=2.3,<2.3.2.1",
                 "ezyang/htmlpurifier": "<4.1.1",
                 "firebase/php-jwt": "<2",
                 "fooman/tcpdf": "<6.2.22",
@@ -966,6 +981,7 @@
                 "paragonie/random_compat": "<2",
                 "paypal/merchant-sdk-php": "<3.12",
                 "phpmailer/phpmailer": ">=5,<5.2.27|>=6,<6.0.6",
+                "phpoffice/phpexcel": "<=1.8.1",
                 "phpoffice/phpspreadsheet": "<=1.5",
                 "phpunit/phpunit": ">=4.8.19,<4.8.28|>=5.0.10,<5.6.3",
                 "phpwhois/phpwhois": "<=4.2.5",
@@ -1075,7 +1091,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2018-11-21T13:18:22+00:00"
+            "time": "2018-11-27T12:50:30+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -1132,6 +1148,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "reefiki/wordpress-social-login": 20,
         "clani90/ramp-plugin": 20,
         "roave/security-advisories": 20
     },

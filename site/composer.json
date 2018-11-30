@@ -38,6 +38,10 @@
     {
       "url": "https://github.com/clani90/ramp-plugin.git",
       "type": "git"
+    },
+    {
+      "url": "https://github.com/reefiki/wordpress-social-login",
+      "type": "git"
     }
   ],
   "require": {
@@ -49,7 +53,7 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/wp-config": "1.0.0",
     "htmlburger/carbon-fields-plugin": "^2.2",
-    "wpackagist-plugin/wordpress-social-login":"2.3.3",
+    "reefiki/wordpress-social-login":"dev-master",
     "maadhattah/wp-github-sync": "^2.0.1",
     "wpackagist-plugin/gutenberg":"4.4.0",
     "wpackagist-plugin/wp-discord-post":"2.1.0",
